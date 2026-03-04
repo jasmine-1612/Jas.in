@@ -125,7 +125,7 @@ drop-shadow-lg "
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            I specialize in Spring Boot development and bring hands-on
+            I specialize in Full Stack development and bring hands-on
             experience in Oracle Integration Cloud implementations —
             contributing to both backend engineering and enterprise integration projects.
           </motion.p>

@@ -54,7 +54,7 @@ export default function About (){
               Jasmine Kaur
             </h2>
             <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
-            Backend Developer
+            Full Stack Developer
             </p>
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
               Experienced Software Developer and Oracle Integration Cloud Consultant with hands-on expertise in Spring Boot,
