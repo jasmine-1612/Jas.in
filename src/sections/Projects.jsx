@@ -78,7 +78,7 @@ export default function Projects() {
         // Sky-to-deep blue — matches the img4 gradient top
         bgColor: "#c8e6ee",
         image: isMobile ? photo4 : img4,
-        objectPosition: isMobile ? "center center" : "center center",
+        objectPosition: isMobile ? "center center" : "center top",
       },
     ],
     [isMobile]
