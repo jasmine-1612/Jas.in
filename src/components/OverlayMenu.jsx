@@ -39,17 +39,25 @@ const isMobile = typeof window !== "undefined" && window.innerWidth < 1024; // l
         animate={{opacity:1, y:0}}
         transition={{delay:0.3 +index *0.1}}
         >
-          <a
-          href={`#${item.toLowerCase()}`}
-          onClick={onClose}
-          className="text-4xl text-white font-semibold hover:text-pink-400 transition-colors duration-300"
-        >
-          {item}
-        </a>
+          
+          <button
+  onClick={() => {
+    onClose();
+    setTimeout(() => {
+      const el = document.getElementById(item.toLowerCase());
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }, 400);
+  }}
+  className="text-4xl text-white font-semibold hover:text-pink-400 transition-colors duration-300 bg-transparent border-none cursor-pointer"
+>
+  {item}
+</button>
+        
           </motion.li>
         ))}
 
       </ul>
+
 
       </motion.div>
     )

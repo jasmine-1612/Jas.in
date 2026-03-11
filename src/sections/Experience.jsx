@@ -135,7 +135,7 @@ const Experience = () =>{
       <section id ="experience" className="relative bg-black text-white">
         {/* Main container with dynamic height */}
         <div ref ={sceneRef} style ={{ height: `${SCENE_HEIGHT_VH}vh`, minHeight:"120vh"}} className="relative">
-          <div className="sticky top-0 h-screen flex flex-col">
+          <div className="sticky top-0 min-h-screen flex flex-col">
 
              {/* Section Title */}
              <div className="shrink-0 px-6 pt-8">

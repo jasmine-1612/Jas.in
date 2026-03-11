@@ -44,10 +44,11 @@ const testimonials =[
 
 function Testimonials(){
   return(
-    <section id="Testimonials" className="relative min-h-screen bg-black text-white flex flex-col items-center justify-between px-6 py-20">
+    <section id="testimonials" className="relative min-h-screen bg-black text-white flex flex-col items-center justify-between px-6 py-20">
 
       <MH2 initial={{opacity:0, y:-50}}
-      animate={{opacity:1, y:0}}
+       whileInView={{opacity:1, y:0}}   
+      viewport={{once:true}}
       transition={{duration:0.6}}
       className="text-4xl font-bold mb-16"
       
@@ -69,7 +70,7 @@ function Testimonials(){
             src={testi.img}
             alt={testi.name}
             className="w-20 h-20 rounded-full border-2 border-white/40 mb-4 object-cover"
-            laoding="lazy"/>
+            loading="lazy"/>
 
             <p className="text-gray-200 italic mb-4">
             {testi.review}

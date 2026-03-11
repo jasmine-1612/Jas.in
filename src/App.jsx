@@ -23,7 +23,7 @@ const [introDone , setIntroDone]= React.useState(false);
     }
     {introDone && (
 
-  <div className="relative gradient text-white">
+  <div className="relative gradient text-white pb-96">
    {/* <ParticlesBackground/> */}
     <CustomCursor/>
     <Navbar/>
