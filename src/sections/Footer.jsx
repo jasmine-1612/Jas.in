@@ -61,7 +61,7 @@ const Footer = () =>{
           </h1>
         </div>
 
-        <div className="h-[3px] w-24 md:w-32 rounded-full bg-gradient-to-r from-purple-500 via-fuchsia-400 to-purple-600"/>
+        <div className="h-[3px] w-24 md:w-32 rounded-full bg-gradient-to-r from-purple-500 via-fuchsia-500 to-purple-500"/>
         <div className="flex gap-5 text-2xl md:text-3xl">
           {socials.map(({Icon, label, href}) =>(
             <motion.a
