@@ -74,6 +74,7 @@ export default function Contact(){
     }
     catch(err){
       console.error("EmailJS Error:" ,err);
+      alert(JSON.stringify(err));
       setStatus("error");
     }
 
