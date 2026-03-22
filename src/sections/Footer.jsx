@@ -90,7 +90,7 @@ const Footer = () =>{
         </p>
 
         <p className="text-xs text-gray-400">
-           © {new Date().getFullYear()} Jasmine Kaur
+           © {new Date().getFullYear()} Jasmine Kaur.
            All rights reserved
         </p>
 
