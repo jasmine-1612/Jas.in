@@ -48,20 +48,7 @@ export default function Projects() {
         image: isMobile ? photo2 : img2,
         objectPosition: "center center",
       },
-      {
-        title: "Email Reply Generator",
-        link: "https://github.com/jasmine-1612/email-reply-generator",
-        bgColor: "#d4775a",
-        image: isMobile ? photo3 : img3,
-        objectPosition: "center center",
-      },
-      {
-        title: "Bookstore",
-        link: "https://github.com/jasmine-1612/bookstore",
-        bgColor: "#c8e6ee",
-        image: isMobile ? photo4 : img4,
-        objectPosition: isMobile ? "center center" : "center top",
-      },
+      
     ],
     [isMobile]
   );
